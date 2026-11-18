@@ -3,10 +3,10 @@ from datetime import datetime
 
 class Cita:
     def __init__(self, codigo, paciente, medico, fecha):
-        self.codigo = codigo      # usa el setter (valida)
+        self._codigo = codigo      # usa el setter (valida)
         self._paciente = paciente
         self._medico = medico
-        self.fecha = fecha        # usa el setter (valida)
+        self._fecha = fecha        # usa el setter (valida)
 
     # Getters
     @property
