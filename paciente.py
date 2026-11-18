@@ -1,8 +1,8 @@
 class Paciente:
     def __init__(self, codigo, nombre, edad):
-        self.codigo = codigo      # usa el setter (valida)
-        self.nombre = nombre      # usa el setter (valida)
-        self.edad = edad          # usa el setter (valida)
+        self._codigo = codigo      # usa el setter (valida)
+        self._nombre = nombre      # usa el setter (valida)
+        self._edad = edad          # usa el setter (valida)
 
     # Getters
     @property
