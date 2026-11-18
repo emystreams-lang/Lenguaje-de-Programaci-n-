@@ -1,8 +1,8 @@
 class Medico:
     def __init__(self, codigo, nombre, especialidad):
-        self.codigo = codigo              
-        self.nombre = nombre              
-        self.especialidad = especialidad  
+        self._codigo = codigo              
+        self._nombre = nombre              
+        self._especialidad = especialidad  
 
     # Getters
     @property
