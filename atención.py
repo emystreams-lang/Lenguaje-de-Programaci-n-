@@ -1,8 +1,8 @@
 class Atencion:
     def __init__(self, cita, diagnostico, tratamiento):
         self._cita = cita
-        self.diagnostico = diagnostico    # usa el setter (valida)
-        self.tratamiento = tratamiento    # usa el setter (valida)
+        self._diagnostico = diagnostico    # usa el setter (valida)
+        self._tratamiento = tratamiento    # usa el setter (valida)
 
     # Getters
     @property
