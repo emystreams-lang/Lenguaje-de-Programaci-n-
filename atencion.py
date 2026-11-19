@@ -1,4 +1,4 @@
-class Atencion:
+class Atencion: 
     def __init__(self, cita, diagnostico, tratamiento):
         self._cita = cita
         self._diagnostico = diagnostico    # usa el setter (valida)
